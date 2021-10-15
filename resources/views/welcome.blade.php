@@ -38,7 +38,7 @@
 
 
                     <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
-                     <strong> Laravel Test, Register and login, or run seed command in the text file to get first admin user and login</strong>
+                        <strong> Laravel Test, Register and login, or run seed command in the text file to get first admin user and login</strong>
                     </div>
                 </div>
             </div>
