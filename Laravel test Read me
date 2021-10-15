@@ -1,0 +1,39 @@
+--------Creating Project
+composer create-project laravel/laravel "LaravelTest"
+
+------------Making Auth
+
+composer require laravel/breeze --dev
+php artisan breeze:install
+npm install
+npm run dev
+php artisan migrate
+
+-------Register First User On Dashboard
+admin
+
+----User Seed
+
+-----Created a UserSeed in Database folders
+php artisan make:seeder UserSeeder
+php artisan db:seed
+
+-------CRUD Models, migrations and Seeders
+
+php artisan make:model employees
+php artisan make:model companies
+
+php artisan make:migration create_employees_table and fill migration schema
+php artisan make:migration create_companies_table and fill migration schema
+php artisan make:seeder CompaniesSeeder
+php artisan make:seeder EmployeesSeeder
+
+
+php artisan migrate
+
+php artisan db:seed -- UserSeeder
+php artisan db:seed -- CompaniesSeeder
+php artisan db:seed -- EmployeesSeeder
+
+
+---Use Dashboard
